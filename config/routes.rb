@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # A user can create a new cocktail
   resources :cocktails, only: [:create, :index, :show, :new] do
   # A user can see the details of a given cocktail, with the dose needed for each ingredient
-   resources :doses, only: [:new, :create]
+    resources :doses, only: [:new, :create]
   end
-  resources :doses, only: [:destroy, :show, :index]
+  resources :doses, only: [:destroy]
 end
