@@ -6,7 +6,11 @@
   background-size: cover;
 }
 
-
+.card-category {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
 
 
 
@@ -24,7 +28,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
-  height: 200px;
   border-radius: 4px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
 }
