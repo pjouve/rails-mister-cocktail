@@ -1,0 +1,30 @@
+// Place all the styles related to the Cocktails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.banner {
+  height: 300px;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  height: 200px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
