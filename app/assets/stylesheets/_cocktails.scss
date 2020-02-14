@@ -1,16 +1,44 @@
 // Place all the styles related to the Cocktails controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-color: #ffffff;
+}
+
 .banner {
   height: 300px;
   background-size: cover;
+  border-radius: 2px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+
 }
 
 .card-category {
   height: 200px;
   background-size: cover;
   background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
 }
+
+.btn {
+
+  border-radius: 25px;
+  border: solid 1px #fcd54f;
+  color: #fac732;
+  padding: 15px;
+
+  &:hover{
+    opacity:0.5;
+  }
+}
+
+
+
 
 
 
@@ -28,6 +56,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
-  border-radius: 4px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+
+  background-color: #ffffff;
 }
